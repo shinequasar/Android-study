@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetailsActivity">
+
+    <View
+        android:id="@+id/viewHeaderBackground"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFDFA2"
+        app:layout_constraintStart_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/detail_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/app_main_font_bold"
+        android:text="터키여행의 필수"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@id/food_detail_title" />
+
+    <TextView
+        android:id="@+id/food_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/app_main_font_bold"
+        android:text="TURKISH FOOD"
+        android:textAlignment="center"
+        android:textColor="#73603B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/viewHeaderBackground"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewHeaderBackground"
+        app:layout_constraintTop_toBottomOf="@+id/viewHeaderBackground" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/food_name_box"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="346dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/app_main_font_bold"
+                android:text="음식이름데이터 가져오기"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/cardHeader">
+
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/food1" />
+
+        <TextView
+            android:id="@+id/detail_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/app_main_font"
+            android:text="음식설명 가져오기" />
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

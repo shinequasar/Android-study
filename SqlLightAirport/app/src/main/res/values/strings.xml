@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Airports of the World</string>
+    <string name="some_text">Airport Name:</string>
+    <string name="some_hint">Type here to filter&#8230;</string>
+</resources>

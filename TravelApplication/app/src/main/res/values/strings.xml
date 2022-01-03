@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">터키가이드</string>
+    <string name="subtitle">내 생애 한번 꼭 해보고픈</string>
+    <string name="title">터키 여행</string>
+    <string name="place_button">가보고 싶은 여행지</string>
+    <string name="food_button">먹어보고 싶은 음식</string>
+    <string name="user_button">마이페이지</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">찜하기</string>
+    <string name="action_play_next">다음사진</string>
+    <string name="backdrop_title">터키여행지</string>
+    <string name="backdrop_subtitle">터키의 아름다운 조각들</string>
+
+    <!--PlaceActivity-->
+    <string name="tour1">터키 궁전투어</string>
+    <string name="tour2">노을 항구</string>
+    <string name="tour3">열기구 체험</string>
+    <string name="tour4">동굴 탐사</string>
+    <string name="tour5">화이트 궁전투어</string>
+    <string name="tour6">문화체험</string>
+    <string name="tour7">야간궁전 투어</string>
+    <string name="tour8">전통시장 투어</string>
+    <string name="tour9">사원 투어</string>
+    <string name="tour10">폭포 투어</string>
+
+    <!--FoodActivity-->
+    <string name="food1">케밥 (Kebab)</string>
+    <string name="food2">되네르케밥 (Doner Kebab)</string>
+    <string name="food3">시시케밥 (Shish Kebab)</string>
+    <string name="food4">항아리 케밥 (Testi Kebab)</string>
+    <string name="food5">쾨프테 (Kofte)</string>
+    <string name="food6">피데 (Pide)</string>
+    <string name="food7">로쿰 (Lokum)</string>
+    <string name="food8">시미트 (Simit)</string>
+    <string name="food9">튀르크카베시 (Turk Kahvesi)</string>
+    <string name="food10">돈두르마 (Dondurma)</string>
+    <string name="food11">차이 (Cay)</string>
+
+    <string name="content1">케밥은 작게 썬 고기 조각을 구워 먹는 터키식 요리를 말한다.</string>
+    <string name="content2">약간 양념한 고기를 50~80cm 정도 되는 꼬챙이에 수직으로 여러개 끼워, 기둥처럼 세워진 자그만 숯불 화덕에서 회전시키면서 겉에서부터 익힌다.</string>
+    <string name="content3">양념한 고기 조각이나 야채를 숯불에 구운 터키의 꼬치 요리.</string>
+    <string name="content4">진흙 항아리에 고기와 야채 등 각종 재료를 넣고 뜨겁게 달구어진 가마에 오랜 시간 은근하게 조리한다.</string>
+    <string name="content5">다진 고기에 각종 양념과 야채를 넣어 완자로 만들어 굽거나 튀긴 터키의 전통요리.</string>
+    <string name="content6">밀가루 반죽을 둥글고 납작하게 만들어 화덕에 구운 터키식 피자.</string>
+    <string name="content7">19세기 이스탄불을 방문했던 영국인이 우연히 로쿰을 맛보고 그 맛에 감동받아 자국에 수입한 것이 계기가 되어 널리 퍼지게 되었다</string>
+    <string name="content8">가운데 구멍이 뚫린 원형 모양의 빵. </string>
+    <string name="content9">터키식 커피. 커피 콩을 볶고 잘게 간 후에 커피 주전자에 직접 끓여낸다.</string>
+    <string name="content10">터키식 아이스크림으로 우유에 설탕, 살렙, 유향수지를 넣어 만든다.</string>
+    <string name="content11">터키식 홍차. 차이는 우유나 크림을 넣지 않고 맑은 적갈색 상태 그대로 마신다.</string>
+    <string name="title_activity_food_details">FoodDetailsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+    </string>
+
+
+</resources>
